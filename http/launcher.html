@@ -16,6 +16,28 @@
             font-family: 'FontAwesome', sans-serif;
         }
         
+        .installationmessage {
+            position: absolute;
+            text-align: center;
+            width: 50%;
+            left: 25%;
+            background: black;
+            color: white;
+            padding: 5%;
+            height: 50%;
+            top: 25%;
+            box-shadow: 0 0 500px 250px black;
+            border: 1px dashed silver;
+        }
+        
+        .installationmessage button {
+            clear: both;
+            display: block;
+            margin: 0 auto;
+            color: black;
+            margin-top: 30%;
+        }
+        
         #staticbar section {
             height: 460px;
         }
@@ -57,6 +79,10 @@
 
 <body>
     <div class='servermessage' style='display:none'></div>
+    <div class='installationmessage' style='display:none'>
+        <span>Please wait for the updater in the top-left corner of the launcher to finish before accessing any of the features!</span>
+        <button onclick="$('.installationmessage').css({'display':'none'})">Ok</button>
+    </div>
     <iframe id="iframemainbody" height="100%" id="salvationdevelopment" role="main" width="100%" style="border:none;"></iframe>
 
     <script>
