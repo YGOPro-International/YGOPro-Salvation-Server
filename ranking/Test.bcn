@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SK92>
+  <Settings Multiplier="200" MinMatches="1" Decay="0" DecayValue="1" />
+  <Players>
+    <Player Name="Storm" Team="" Invisible="false" Characters="" Alts="" />
+    <Player Name="Access" Team="" Invisible="false" Characters="" Alts="" />
+    <Player Name="Son" Team="" Invisible="false" Characters="" Alts="" />
+  </Players>
+  <Matches>
+    <Match ID="000" Timestamp="11/26/2016 12:00:00 AM" Order="1" Description="" Player1="Access" Player2="Storm" Winner="1" />
+    <Match ID="000" Timestamp="11/26/2016 12:00:00 AM" Order="2" Description="" Player1="Access" Player2="Storm" Winner="1" />
+    <Match ID="000" Timestamp="11/26/2016 12:00:00 AM" Order="3" Description="" Player1="Access" Player2="Storm" Winner="2" />
+    <Match ID="000" Timestamp="11/26/2016 12:00:00 AM" Order="4" Description="" Player1="Access" Player2="Storm" Winner="2" />
+    <Match ID="000" Timestamp="11/26/2016 12:00:00 AM" Order="5" Description="" Player1="Access" Player2="Storm" Winner="1" />
+    <Match ID="000" Timestamp="11/26/2016 12:00:00 AM" Order="6" Description="" Player1="Son" Player2="Storm" Winner="1" />
+    <Match ID="000" Timestamp="11/26/2016 12:00:00 AM" Order="7" Description="" Player1="Son" Player2="Storm" Winner="1" />
+    <Match ID="000" Timestamp="11/26/2016 12:00:00 AM" Order="8" Description="" Player1="Son" Player2="Storm" Winner="2" />
+    <Match ID="000" Timestamp="11/26/2016 12:00:00 AM" Order="9" Description="" Player1="Son" Player2="Storm" Winner="2" />
+  </Matches>
+</SK92>
